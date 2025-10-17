@@ -7,6 +7,11 @@ Inspired by minimalist portfolio styles — featuring a gradient header, circula
 
 ---
 
+## 🌐 Live Demo
+**👉 [View Live Project](https://callerstudios.github.io/profile-card/)**  
+
+---
+
 ## ✨ Features
 - Responsive card layout with smooth shadows and rounded edges  
 - Dynamic timestamp using vanilla JavaScript  
