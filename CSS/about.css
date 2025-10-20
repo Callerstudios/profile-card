@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #bfbfbf;
+}
+
+main[data-testid="test-about-page"] {
+  background: #fff;
+  width: 600px;
+  max-width: 90%;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+main::before {
+  content: "About Me";
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(180deg, #d92027, #b31312);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+h2 {
+  color: #d92027;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.about-header{
+    font-size: 1.5rem;
+}
+
+p {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  main[data-testid="test-about-page"] {
+    width: 90%;
+  }
+}
